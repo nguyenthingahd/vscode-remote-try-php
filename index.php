@@ -20,8 +20,6 @@ function sayHello($name) {
 		
 		sayHello('remote world');
 			
-		// phpinfo(); 
-			
 		?>
 	</body>
 </html>

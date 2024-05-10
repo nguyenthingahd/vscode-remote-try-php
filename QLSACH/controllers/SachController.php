@@ -14,7 +14,7 @@ class SachController {
         $sachList = $this->model->getList();
         
         // Hiển thị view với dữ liệu sách
-        include '../views/sach/index.php';
+        include '../views/sach/sach.php';
     }
 }
 ?>

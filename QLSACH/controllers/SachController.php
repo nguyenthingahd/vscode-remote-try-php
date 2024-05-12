@@ -14,7 +14,7 @@ class SachController {
         $sachModel = new Sach($db);
         $sachList = $sachModel->getList();
     
-        include '../views/sach/index.php';
+        include '../views/sach/sach.php';
     }
 }
 

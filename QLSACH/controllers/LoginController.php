@@ -2,7 +2,7 @@
 class LoginController {
     public function index() {
         // Hiển thị trang đăng nhập
-        include '../views/login/index.php';
+        include '../views/login/login.php';
     }
 
     public function login($db) {
